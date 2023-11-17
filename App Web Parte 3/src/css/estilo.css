@@ -1,0 +1,163 @@
+body {
+  margin: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  background-color: rgb(250,250,250);
+}
+
+body a {
+  text-decoration: none;
+  color: #727272;
+}
+
+body a:hover {
+  color: rgb(110,210,156);
+}
+
+h3 {
+  text-align: center;
+}
+
+#cabecera{
+  background-color: rgb(240,240,240);
+  background: rgb(240,240,240) url('../img/logo.png');
+  background-repeat: no-repeat;
+  color: rgb(80,80,80);
+  position: fixed;
+  width: 100%;
+  padding-left: 20px;
+  height: 68px;
+  border-bottom: 1px solid rgb(200,200,200);
+  box-shadow: 1px 1px 2px rgb(200,200,200);
+}
+
+#cabecera #usuarioLogin {
+  margin: 55px;
+  margin-left: 15%;
+  float: left;
+}
+
+#menu a {
+  background: rgb(240,240,240);
+  text-decoration: none;
+  padding: 20px;
+  border-right: 1px solid rgb(200,200,200);
+  margin-left: 1px;
+}
+
+#menu a.final {
+  border-right: 0px;
+}
+
+#menu a:hover {
+  background: rgb(230,230,230);
+}
+
+#menu ul {
+  margin: 25px;
+  float: right;
+  list-style: none;
+  display: -webkit-flex;
+  display: flex;
+}
+
+#contenedor {
+  min-height: 550px;
+  margin: auto;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  overflow:auto;
+  background-color: rgb(250,250,250);
+}
+
+#contenedor h2{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
+/** Problema con el tamaño de los textarea en Safari*/
+textarea{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+
+  font-size: 15px;
+  border: 1px solid #cbcbcb;
+}
+
+form input {
+  height: 20px;
+  font-size: 15px;
+}
+
+.boton{
+  height: 30px;
+
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+
+  color:white;
+  background: rgb(110,210,156);
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border: 1px solid rgb(96, 180, 130);
+}
+
+.select {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 30px;
+  background-color:#f0f0f0;
+  }
+
+/* Seccion para informe */
+#anioForm {
+  float: right;
+  margin-right: 20px;
+}
+
+footer {
+  color: rgb(80,80,80);
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(240,240,240);
+  border-top: 1px solid rgb(200,200,200);
+
+  background: -webkit-linear-gradient(rgb(240,240,240), rgb(250,250,250)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgb(240,240,240), rgb(250,250,250)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgb(240,240,240), rgb(250,250,250)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(240,240,240), rgb(250,250,250)); /* Standard syntax */
+}
+
+
+/* RESOLUCION DE MOVILES
+@media screen and (max-width:400px) {
+    #contenedor{
+        width: 300px;
+        height: 398px;
+    }
+
+    #cabecera {
+        background-image: url('../img/logo-mini.png');
+        background-repeat: no-repeat;
+        position: fixed;
+        height: 40px;
+    }
+
+    #menu ul {
+        display: list;
+        visibility: hidden;
+    }
+
+    #botonMenu {
+        float: right;
+        margin: 35px;
+        margin-top: -90px;
+        visibility: visible;
+    }
+}
+*/

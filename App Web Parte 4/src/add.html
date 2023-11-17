@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">	
+	<title>Añadir Usuario</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"  crossorigin="anonymous">
+</head>
+
+<body>
+<div class = "container">
+		<div class="jumbotron">
+			<h1 class="display-4">Directorio Usuarios</h1>
+			<p class="lead">Unidad 2</p>
+			<p class="lead">Práctica 2</p>
+		</div>
+			
+	<a href="index.php" class="btn btn-primary">Home</a>
+	<br/><br/>
+
+	<form action="add.php" method="post" name="form1">
+
+		<div class="form-group">
+			<label for="name">Nombre</label>
+			<input type="text" class="form-control" name="name">
+		</div>
+
+		<div class="form-group">
+			<label for="age">Edad</label>
+			<input type="text" class="form-control" name="age">
+		</div>
+
+		<div class="form-group">
+			<label for="email">Email</label>
+			<input type="text" class="form-control" name="email">
+		</div>
+
+		<div class="form-group">
+			<input type="submit" name="Submit" value="Add" class="form-control" >
+		</div>
+	</form>
+</div>
+</body>
+</html>
+

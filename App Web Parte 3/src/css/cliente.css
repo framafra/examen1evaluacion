@@ -1,0 +1,14 @@
+#nuevo_cliente form{
+	width: 640px;
+	height: 120px;
+	margin: auto;
+	border: 1px solid rgb(230,230,230);
+	background-color: rgb(245,245,245);
+	padding: 20px;
+}
+
+#busq_cliente {
+	weight: 300px;
+	text-align: center;
+	margin: 10px auto;
+}

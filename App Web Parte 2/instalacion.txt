@@ -1,0 +1,16 @@
+INSTALACION DEL SISTEMA BANKOINT
+
+1.- Crear la BBDD mediante el archivo schema.sql, mediante la CLI de MySQL o mediante PHPMyAdmin.
+
+2-  El archivo de configuración de la BBDD se encuentra en \src\administrator\core\controller\Database.php.
+
+3- Acceder al BACKEND de administrador http://ipservidorweb/administrator. 
+  Datos de Acceso.-
+    Usuario: admin
+    Password: admin
+
+    Desde el BACKEND podrás dar de alta administradores, clientes y depósitos de cliente.
+
+4- Acceder a la aplicación http://ipservidorweb, para entrar al sistema necesitaras como nombre de usuario el mail del cliente, que ha sido creado desde el BACKEND.
+
+

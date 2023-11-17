@@ -1,0 +1,2 @@
+
+El archivo de configuración de la conexión a la BBDD se encuentra en la carpeta configuración.
